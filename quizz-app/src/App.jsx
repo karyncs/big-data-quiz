@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { quizData } from "./quizData";
+import { SpeedInsights } from "@vercel/speed-insights";
 
 const App = () => {
   // State variables
@@ -224,9 +225,13 @@ const App = () => {
 
       <footer style={{ marginTop: "50px", color: "#555", fontSize: "14px" }}>
         Made with love ~and AI~ by Karyn Serratine.
+        <SpeedInsights />
       </footer>
+
     </div>
   );
+  
+  
 };
 
 export default App;
