@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { quizData } from "./quizData";
-import { SpeedInsights } from "@vercel/speed-insights";
+// import { SpeedInsights } from "@vercel/speed-insights";
 
 const App = () => {
   // State variables
@@ -60,12 +60,15 @@ const App = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", margin: "20px auto", maxWidth: "600px", fontFamily: "Arial, sans-serif" }}>
+    <div style={{ textAlign: "center", margin: "0 auto", maxWidth: "600px", fontFamily: "Arial, sans-serif", padding: "20px", backgroundColor: "#f9f9f9", borderRadius:"10px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)",}}>
       <h1 style={{ fontSize: "32px", marginBottom: "20px", color: "#333" }}>Big Data Quiz</h1>
 
       {showSetup ? (
         <div>
           <h2 style={{ color: "#555", marginBottom: "15px" }}>Setup Your Quiz</h2>
+          <p style={{ color: "#777", marginBottom: "20px" }}>
+    Select the total number of questions and the range of questions you want to include in your quiz. When you're ready, click "Start Quiz."
+          </p>
           <label style={{ display: "block", marginBottom: "10px" }}>
             Total Questions:{" "}
             <input
@@ -175,7 +178,8 @@ const App = () => {
             <strong>Question {currentQuestionIndex + 1} of {randomQuestions.length}</strong>
           </div>
           <h2>{currentQuestion.question}</h2>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", margin: "20px auto" }}>
+          <div style={{ display: "flex", flexDirection: "column", 
+            alignItems: "flex-start", margin: "20px auto" }}>
             {currentQuestion.options.map((option, index) => (
               <button
                 key={index}
@@ -223,9 +227,8 @@ const App = () => {
         </div>
       )}
 
-      <footer style={{ marginTop: "50px", color: "#555", fontSize: "14px" }}>
+      <footer style={{ marginTop: "50px", color: "#555", fontSize: "14px", padding:"10px" }}>
         Made with love ~and AI~ by Karyn Serratine.
-        <SpeedInsights />
       </footer>
 
     </div>
