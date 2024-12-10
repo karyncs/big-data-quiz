@@ -58,7 +58,7 @@ const App = () => {
     setShowResults(false);
     setSelectedAnswer(null);
   };
-
+  
   return (
     <div style={{ textAlign: "center", margin: "0 auto", maxWidth: "600px", fontFamily: "Arial, sans-serif", padding: "20px", backgroundColor: "#f9f9f9", borderRadius:"10px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)",}}>
       <h1 style={{ fontSize: "32px", marginBottom: "20px", color: "#333" }}>Big Data Quiz</h1>
