@@ -204,6 +204,10 @@ const App = () => {
                 {`${String.fromCharCode(97 + index)}) ${option}`}
               </button>
             ))}
+            {/* Show correct answer if the user selected a wrong one */}
+            {selectedAnswer && selectedAnswer !== currentQuestion.correctAnswer && (
+              <p>The correct answer is: {currentQuestion.correctAnswer}</p>
+            )}
           </div>
 
           {selectedAnswer && (

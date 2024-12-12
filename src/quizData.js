@@ -325,14 +325,14 @@ export const quizData = [
     },
     {
       id: 30,
-      question: "Business Intelligence means:",
+      question: "Descriptive analytics is primarily used to:",
       options: [
-        "A business strategy intended to measure the strategies through KPI",
-        "An integrated information system to transform data into useful information to decide",
-        "An integrated information system to transform decisions into useful information for selling",
-        "An integrated information system to transform information into data useful to decide",
+       "Understand what happened in the past.",
+        "Predict future outcomes based on data trends.",
+        "Provide recommendations on the best course of action.",
+        "Create and manage database tables.",
       ],
-      correctAnswer: "An integrated information system to transform data into useful information to decide",
+      correctAnswer: "Understand what happened in the past.",
     },
     {
       id: 31,
@@ -564,5 +564,27 @@ export const quizData = [
         "A hierarchical data structure",
       ],
       correctAnswer: "A three-dimensional data structure",
+    },
+    {
+      id: 52,
+      question: "Predictive analytics is useful for:",
+      options: [
+        "Summarizing historical data.",
+        "Forecasting future trends based on historical data.",
+        "Providing real-time decision-making recommendations.",
+        "Designing data models for structured analysis.",
+      ],
+      correctAnswer: "Forecasting future trends based on historical data.",
+    },
+    {
+      id: 53,
+      question: "Prescriptive analytics helps businesses by:",
+      options: [
+        "Reporting on past performance.",
+        "Forecasting possible future scenarios.",
+        "Recommending the best actions to optimize outcomes.",
+        "Simplifying data visualization processes.",
+      ],
+      correctAnswer: "Recommending the best actions to optimize outcomes.",
     },
   ];
