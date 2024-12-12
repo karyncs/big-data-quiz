@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { quizData } from "./quizData";
-// import { SpeedInsights } from "@vercel/speed-insights";
 
 const App = () => {
   // State variables
