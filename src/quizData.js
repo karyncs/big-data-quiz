@@ -587,4 +587,70 @@ export const quizData = [
       ],
       correctAnswer: "Recommending the best actions to optimize outcomes.",
     },
+    {
+      id: 55,
+      question: "IN THE FIELD OF DATA WAREHOUSES, Turnover (Revenues) is:",
+      options: [
+        "A dimension",
+        "An additive measure",
+        "A non-additive measure",
+        "A primary key",
+      ],
+      correctAnswer: "An additive measure",
+    },
+    {
+      id: 56,
+      question: "Using Google Data Studio, you can:",
+      options: [
+        "Share the report with any user who has a google account",
+        "Share the report with users of your company",
+        "Only export to PDF format",
+        "Share the report with users of your company",
+      ],
+      correctAnswer: "Share the report with any user who has a google account",
+    },
+    {
+      id: 57,
+      question: "Using QLIK Sense, you:",
+      options: [
+        "Cannot create joins between tables",
+        "Can create joins between Excel files",
+        "Can create joins between entities (tables)",
+        "Can create joins only between primary keys",
+      ],
+      correctAnswer: "Can create joins between entities (tables)",
+    },
+    {
+      id: 58,
+      question: "You have a data set with the daily prices of some financial instruments, over 2 years. Suppose you need to analyze the current price, which following measures might make sense to aggregate by month or year?",
+      options: [
+        "Minimum, maximum, median",
+        "Count, average, maximum",
+        "Minimum, sum, average",
+        "Maximum, last, sum",
+      ],
+      correctAnswer: "Minimum, maximum, median",
+    },
+    {
+      id: 59,
+      question: "BIG DATA are really BIG when:",
+      options: [
+        "They can be analyzed with traditional technologies",
+        "They can be archived and analyzed with traditional technologies",
+        "They cannot be archived and analyzed with traditional technologies",
+        "They can be archived but not analyzed with traditional technologies",
+      ],
+      correctAnswer: "They cannot be archived and analyzed with traditional technologies",
+    },
+    {
+      id: 60,
+      question: "Gartner produces every year:",
+      options: [
+        "An IT company rating",
+        "A software evaluation quadrant for each category",
+        "A score for open data",
+        "An evaluation of the BUSINESS INTELLIGENCE software",
+      ],
+      correctAnswer: "A software evaluation quadrant for each category",
+    },
   ];
